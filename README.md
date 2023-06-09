@@ -8,6 +8,7 @@ O trabalho prático consiste em implementar um macro-montador em linguagem C/C++
 
 ## Integrantes do Grupo
 - Daniel Moraes
+- Rafael dos Santos Silva
 
 
 ## Sistema Operacional (SO) e Compilador
@@ -23,8 +24,10 @@ Para compilar o programa, siga os seguintes passos:
    ```
    gcc -o montador montador.c
    ```
-
-   Substitua "montador.c" pelo nome do arquivo que contém o código-fonte do montador.
+Para o compilador MinGW no Windows:
+```
+   gcc -o montador.exe montador.c
+```
 
 4. Após a compilação ser concluída sem erros, execute o programa com o seguinte comando:
 
@@ -34,7 +37,10 @@ Para compilar o programa, siga os seguintes passos:
 
    Substitua "<arquivo.asm>" pelo nome do arquivo assembly que deseja montar.
 
-5. O programa irá gerar um arquivo de saída com o nome do arquivo de entrada, mas com a extensão ".EXC".
+
+5. O programa irá gerar um arquivo de saída com o nome do arquivo de entrada, mas com a extensão ".EXC"
+
+
 
 ## Montador
 O montador desenvolvido deve traduzir um código assembly conforme especificado em sala de aula. O arquivo de entrada deve ser um arquivo de texto com a extensão ".ASM". O arquivo de saída será outro arquivo de texto contendo o código objeto ou uma única linha no caso de não precisar de ligação. Recomenda-se a criação de um arquivo pre-processado adicional.
