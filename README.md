@@ -66,7 +66,7 @@ O montador aceita as seguintes instruções para o assembly fictício utilizado:
 - RET: Retorna de uma sub-rotina.
 - ...
 
-Consulte a seção "Instruções do Montador" no README completo para obter a lista completa de instruções e modos de endereçamento suportados.
+Consulte o arquivo de instruções anexado nesse projeto.
 
 
 ---
