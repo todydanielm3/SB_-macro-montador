@@ -1,5 +1,10 @@
+# Projeto Software Bâsico - Prof. Bruno Macchiavello.  
+Daniel Moraes da Silva
+Rafael dos Santos Silva
+
 # MONTADOR 
 Este é um projeto de macro-montado, implementado em linguagem C. O programa é capaz de traduzir códigos assembly em um arquivo de entrada e gerar um arquivo objeto com o código traduzido.
+
 
 ## Funcionalidades
 
